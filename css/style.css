@@ -1806,6 +1806,20 @@ button { cursor:pointer; border:none; background:none; font-family:inherit; }
   grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
 }
+@media (max-width: 1024px) {
+  .ach-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 768px) {
+  .ach-grid { grid-template-columns: 1fr 1fr; gap: 1rem; }
+  .ach-card { padding: 1.5rem 1rem 1.2rem; }
+  .ach-icon-wrap { width: 52px; height: 52px; font-size: 1.4rem; margin-bottom: .8rem; }
+  .ach-card h3 { font-size: .75rem; }
+  .ach-card p { font-size: .78rem; }
+}
+@media (max-width: 480px) {
+  .ach-grid { grid-template-columns: 1fr; max-width: 380px; margin: 0 auto; }
+  .ach-card { padding: 1.8rem 1.5rem 1.5rem; }
+}
 
 .ach-card {
   position: relative;
