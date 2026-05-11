@@ -1660,6 +1660,10 @@ button { cursor:pointer; border:none; background:none; font-family:inherit; }
 
   /* Achievements */
   .ach-grid { grid-template-columns: 1fr 1fr; }
+  .ach-card { padding: 1.5rem 1rem 1.2rem; }
+  .ach-icon-wrap { width: 52px; height: 52px; font-size: 1.4rem; margin-bottom: .8rem; }
+  .ach-card h3 { font-size: .75rem; }
+  .ach-card p { font-size: .78rem; }
 
   /* Community */
   .comm-content { flex-direction: column; gap: 2.5rem; }
@@ -1668,6 +1672,10 @@ button { cursor:pointer; border:none; background:none; font-family:inherit; }
 
   /* Values */
   .values-grid { grid-template-columns: 1fr; max-width: 480px; margin: 0 auto; }
+  .value-card { padding: 1.8rem 1.4rem 1.5rem; }
+  .val-icon { font-size: 2.2rem; margin-bottom: .8rem; }
+  .value-card h3 { font-size: .9rem; }
+  .value-card p { font-size: .88rem; line-height: 1.6; }
 
   /* Contact form */
   .cf-row { grid-template-columns: 1fr; }
@@ -1685,6 +1693,8 @@ button { cursor:pointer; border:none; background:none; font-family:inherit; }
   .section { padding: 80px 0; }
   .roster-grid { grid-template-columns: 1fr; max-width: 340px; margin: 0 auto; }
   .ach-grid { grid-template-columns: 1fr; max-width: 380px; margin: 0 auto; }
+  .ach-card { padding: 1.8rem 1.5rem 1.5rem; }
+  .value-card { padding: 1.6rem 1.2rem 1.4rem; }
   .comm-right { flex-direction: column; align-items: stretch; }
   .comm-btn { min-width: unset; width: 100%; }
   .hero-buttons { flex-direction: column; align-items: center; width: 100%; }
