@@ -1679,6 +1679,10 @@ button { cursor:pointer; border:none; background:none; font-family:inherit; }
 
   /* Contact form */
   .cf-row { grid-template-columns: 1fr; }
+  .contact-form { max-width: 100%; padding: 0 .25rem; }
+  .cf-field input,
+  .cf-field select,
+  .cf-field textarea { font-size: .9rem; padding: .75rem .85rem; }
 
   /* Tournaments */
   .tournaments-grid { grid-template-columns: 1fr; }
@@ -2579,6 +2583,7 @@ button { cursor:pointer; border:none; background:none; font-family:inherit; }
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
+  width: 100%;
 }
 .cf-row {
   display: grid;
